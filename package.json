@@ -1,21 +1,16 @@
 {
-  "author": "adrai",
-  "name": "eventstore",
+  "author": "lysender",
+  "name": "@lysender/eventstore",
   "version": "1.15.5",
   "contributors": [
-    {
-      "name": "Adriano Raiano",
-      "email": "adriano@raiano.ch"
-    },
-    {
-      "name": "Jan Muehlemann",
-      "email": "jan.muehlemann@gmail.com"
-    }
+    "Adriano Raiano <adriano@raiano.ch>",
+    "Jan Muehlemann <jan.muehlemann@gmail.com>",
+    "Lysender <leonel@lysender.com>"
   ],
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git@github.com:adrai/node-eventstore.git"
+    "url": "git+ssh://git@github.com/lysender/node-eventstore.git"
   },
   "description": "Node-eventstore is a node.js module for multiple databases. It can be very useful as eventstore if you work with (d)ddd, cqrs, eventsourcing, commands and events, etc.",
   "keywords": [
@@ -29,7 +24,8 @@
   ],
   "main": "./index.js",
   "directories": {
-    "lib": "./lib"
+    "lib": "lib",
+    "test": "test"
   },
   "engines": {
     "node": ">=0.8.0"
@@ -52,5 +48,10 @@
   },
   "scripts": {
     "test": "mocha"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/lysender/node-eventstore/issues"
+  },
+  "homepage": "https://github.com/lysender/node-eventstore#readme",
+  "license": "ISC"
 }
