@@ -1,3 +1,9 @@
+# Fork Notice
+
+This fork made significant changes to the structure of this library.
+
+- Only supports MongoDB!
+
 # ⚠️ IMPORTANT NEWS! 📰
 
 I’ve been dealing with CQRS, event-sourcing and DDD long enough now that I don’t need working with it anymore unfortunately, so at least for now this my formal farewell!
